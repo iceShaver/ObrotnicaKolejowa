@@ -13,7 +13,7 @@ public:
     Track();
     Car * PullCar();
     Car * GetCar();
-    bool PushCar(Car*);
+    void PushCar(Car*);
     int GetNumberOfCars();
     int GetCarID(int index);
 private:

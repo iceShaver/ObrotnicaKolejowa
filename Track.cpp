@@ -16,7 +16,7 @@ Track::Track() {
 
 }
 
-bool Track::PushCar(Car * car) {
+void Track::PushCar(Car * car) {
     cars.PushFirst(car);
 }
 
