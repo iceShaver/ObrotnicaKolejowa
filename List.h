@@ -88,7 +88,7 @@ template<class Type>
 bool List<Type>::PushFirst(Type *object) {
     ListElement<Type> * element = new ListElement<Type>;
     if(object == nullptr){
-        printf("Given pointer is nullptr");
+        //printf("Given pointer is nullptr");
         return false;
     }
     elementsNumber++;
